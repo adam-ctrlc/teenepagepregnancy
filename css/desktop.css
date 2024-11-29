@@ -513,6 +513,13 @@ footer > h1 {
     height: 100%;
     object-fit: cover;
   }
+
+  .footer-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
 }
 
 @media (min-width: 481px) {
